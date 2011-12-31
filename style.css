@@ -8,14 +8,13 @@ body {
 }
 
 #wrap {
-    width: 600px;
+    width: 650px;
     margin-left: auto; margin-right: auto;
 }
 
 /* Header */
 h1 {
     font-family: vanilla;
-    text-align: center;
     padding-bottom: 15px;
 }
 
@@ -29,7 +28,15 @@ h2 {
 /* Navigation */
 #navigation {
     position: relative;
-    left: 120px;
+    left: 51px;
+    bottom: 38px;
+    float: right;
+}
+
+.nav-title div {
+    position: relative;
+    float: left;
+
 }
 
 .nav-list a {
@@ -37,15 +44,52 @@ h2 {
     color: #59A80F;
     font-size: 18pt;
     font-family: sans-serif;
+    position: relative;
+    bottom: 10px;
+    right: 21px;
+}
+
+.nav-list-footer a {
+    text-decoration: none;
+    color: #59A80F;
+    font-size: 10pt;
+    font-family: sans-serif;
+
 }
 
 .nav-list a:hover {
     color: #F0F2DD;
 }
 
+.nav-list-footer a:hover {
+    color: #F0f2DD;
+}
+
 .nav-list li {
     display: inline;
     margin-right: 40px;
+    border-right: 1px dashed #545150;
+    padding: 20px 10px 0;
+        padding-top: 33px;
+        padding-right: 15px;
+        padding-bottom: 0px;
+}
+
+.nav-list li:last-child {
+    border: none;
+
+}
+
+.nav-list-footer li {
+    display: inline;
+    
+}
+    
+#navigation-footer {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+
 }
 
 #content div {
@@ -54,6 +98,7 @@ h2 {
     padding: 25px;
     margin-top: 40px;
     background-color: #E2FF9E;
+    box-shadow: 5px 5px 2px #444;
 }
 
 
