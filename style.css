@@ -3,6 +3,11 @@
     src: url('./media/Vanilla-webfont.ttf');
 }
 
+@font-face {
+    font-family: 'whitehall';
+    src: url('./media/whitehall.otf');
+}
+
 body {
     background-color: #9ED54C;
 }
@@ -41,9 +46,9 @@ h2 {
 
 .nav-list a {
     text-decoration: none;
-    color: #59A80F;
-    font-size: 18pt;
-    font-family: sans-serif;
+    color: #6D6D6D;
+    font-size: 14pt;
+    font-family: whitehall;
     position: relative;
     bottom: 10px;
     right: 21px;
@@ -51,18 +56,18 @@ h2 {
 
 .nav-list-footer a {
     text-decoration: none;
-    color: #59A80F;
+    color: #6D6D6D;
     font-size: 10pt;
     font-family: sans-serif;
 
 }
 
 .nav-list a:hover {
-    color: #F0F2DD;
+    color: #05A9A5;
 }
 
 .nav-list-footer a:hover {
-    color: #F0f2DD;
+    color: #05A9A5;
 }
 
 .nav-list li {
