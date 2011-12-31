@@ -13,14 +13,14 @@ body {
 }
 
 #wrap {
-    width: 650px;
+    width: 700px;
     margin-left: auto; margin-right: auto;
 }
 
 /* Header */
 h1 {
     font-family: vanilla;
-    padding-bottom: 15px;
+    margin-top: 30px;
 }
 
 h2 {
@@ -28,6 +28,7 @@ h2 {
 }
 
 #header {
+    
 }
 
 /* Navigation */
@@ -46,17 +47,17 @@ h2 {
 
 .nav-list a {
     text-decoration: none;
-    color: #6D6D6D;
+    color: #515151;
     font-size: 14pt;
     font-family: whitehall;
     position: relative;
-    bottom: 10px;
+    bottom: 3px;
     right: 21px;
 }
 
 .nav-list-footer a {
     text-decoration: none;
-    color: #6D6D6D;
+    color: #515151;
     font-size: 10pt;
     font-family: sans-serif;
 
@@ -73,11 +74,7 @@ h2 {
 .nav-list li {
     display: inline;
     margin-right: 40px;
-    border-right: 1px dashed #545150;
-    padding: 20px 10px 0;
-        padding-top: 33px;
-        padding-right: 15px;
-        padding-bottom: 0px;
+    border-right: 1px dashed #000000;
 }
 
 .nav-list li:last-child {
@@ -93,8 +90,7 @@ h2 {
 #navigation-footer {
     position: relative;
     float: right;
-    margin-right: 20px;
-
+    margin-right: 10px;
 }
 
 #content div {
