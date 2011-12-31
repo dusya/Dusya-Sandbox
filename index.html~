@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html>
+
+  <head>
+    <title>Teamaster Kitty 5000</title>
+
+    <!--- External CSS Files --->
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+    <div id="wrap">
+
+    </div>
+
+  </body>
+
+</html>
+  

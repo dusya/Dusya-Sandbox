@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'vanilla';
+    src: url('./media/Vanilla-webfont.ttf');
+}
+
+body {
+    background-color: #9ED54C;
+}
+
+#wrap {
+    width: 600px;
+    margin-left: auto; margin-right: auto;
+}
+
+/* Header */
+h1 {
+    font-family: vanilla;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-family: vanilla;
+}
+
+#header {
+}
+
+/* Navigation */
+#navigation {
+    position: relative;
+    left: 120px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #59A80F;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+
+.nav-list a:hover {
+    color: #F0F2DD;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 40px;
+}
+
+#content div {
+    border-radius: 15px;
+    border: 2px solid #C4ED68;
+    padding: 25px;
+    margin-top: 40px;
+    background-color: #E2FF9E;
+}
+
+
